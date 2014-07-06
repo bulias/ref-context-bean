@@ -6,7 +6,7 @@ import org.junit.Test;
 import static net.sourceforge.jwebunit.junit.JWebUnit.*;
 
 /**
- * Created by skuro on 06/07/14.
+ * Makes sure the Consumer is up and running
  */
 public class ConsumerSmokeTestIT {
 

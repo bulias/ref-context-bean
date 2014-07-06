@@ -18,13 +18,6 @@ The project is provided with the following structure:
     +-- consumer  : webapp that uses beans declared in suppliers's context
     |
     +-- runner    : testing projects that deploys both supplier and consumer into tomcat and verifies their behavior
-    
-TODO
-====
-
-The following have still to be tested:
-
-- Using stateful service beans to verify the singleton behavior
 
 License
 =======

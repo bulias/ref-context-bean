@@ -3,6 +3,7 @@ package tk.skuro.experiments;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -18,6 +19,13 @@ public class SupplierController {
     @ResponseBody
     public String callMeMaybe() {
         return serviceBean.serve();
+    }
+
+    @RequestMapping("/set")
+    @ResponseBody
+    public String setServiceState(@RequestParam("v") String value) {
+        serviceBean.setInternal(value);
+        return "OK";
     }
 
 }

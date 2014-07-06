@@ -6,7 +6,7 @@ import org.junit.Test;
 import static net.sourceforge.jwebunit.junit.JWebUnit.*;
 
 /**
- * Created by skuro on 06/07/14.
+ * Makes sure the Supplier is up and running
  */
 public class SupplierSmokeTestIT {
 
